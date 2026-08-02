@@ -1,8 +1,25 @@
 aid: wonder-brands
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonder-brands.png
 name: Wonder Brands
-description: 'Wonder Brands is a company surfaced as a portfolio company of qed-investors and added to
-  the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Wonder Brands is a Latin American digital-first e-commerce company that builds and operates
+  a portfolio of 15+ consumer product brands (including AlebriPets, Tropical Heal, Somos Reyes, Kingsman,
+  KingsHouse, and KingsPort) spanning mattresses and bedroom furniture, sports equipment, home appliances,
+  travel gear, tools, home and garden furniture, pet and baby products, and personal care. Operating an
+  online-first omnichannel model across Uruguay, Mexico, Colombia, and Chile, it fulfills over 2 million
+  annual orders from 25,000+ square meters of warehouse space, backed by proprietary technology for product
+  optimization, marketing, pricing, and demand forecasting. Backed by QED Investors. The company exposes
+  no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/wonder-brands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ecommerce
+- E-Commerce
+- Consumer Goods
+- Retail
+- Brand Aggregator
+- Latin America
+- Direct To Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wonder-brands-domain-security.yml
 - type: Website
   url: https://wonderbrands.co/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
